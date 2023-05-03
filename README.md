@@ -4,14 +4,14 @@ If you encounter a CMake error in your Flutter or Dart project, you can use this
 
 ## Usage
 1. Download the `cmake_fix.bat` file from this [repository.](https://github.com/FaceND/cmake-fix.git)
-2. Paste the file into your Flutter or Dart project directory.
-2. Open the command prompt or terminal and navigate to the project directory.
-3. Run the `cmake_fix.bat` file by typing the following command and pressing Enter:
+2. Copy the `CMakeFix.bat` file into your Flutter or Dart project directory.
+3. Open the command prompt or terminal and navigate to the project directory.
+4. Run the `cmake_fix.bat` file by typing the following command and pressing Enter:
 ```
 cmake_fix.bat
 ```
-4. Wait for the script to finish running. It will delete the `CMakeLists.txt` file in the `windows` folder, run the `flutter clean` and `flutter create .` commands to fix the CMake error, and then run the `cmake_fix.bat` file to fix any remaining errors.
-5. Once the script has finished running, try building your project again. The CMake error should be fixed now.
+5. Wait for the script to finish running. It will delete the `CMakeLists.txt` file in the `windows` folder, run the `flutter clean` and `flutter create .` commands to fix the CMake error, and then run the `cmake_fix.bat` file to fix any remaining errors.
+6. Once the script has finished running, try building your project again. The CMake error should be fixed now.
 
 ## Notes 
 - `cmake_fix.bat` script is a Windows batch file and is not compatible with `macOS`. However, you can use a shell script on macOS to achieve the same result. Here's an example of what the script would look like:
