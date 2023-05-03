@@ -3,7 +3,7 @@
 If you encounter a CMake error in your Flutter or Dart project, you can use this batch file to fix it.
 
 ## Usage
-1. Download the `cmake_fix.bat` file from this [repository.](https://github.com/FaceND/Java)
+1. Download the `cmake_fix.bat` file from this [repository.](https://github.com/FaceND/cmake-fix.git)
 2. Paste the file into your Flutter or Dart project directory.
 2. Open the command prompt or terminal and navigate to the project directory.
 3. Run the `cmake_fix.bat` file by typing the following command and pressing Enter:
